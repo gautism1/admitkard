@@ -11,8 +11,7 @@ import logoimg from '../images/admitkardlogo.png';
             const handleSubmit = (evt) => {
             evt.preventDefault(); 
             localStorage.setItem("phone",number);
-            window.location.href='/otp';
-                     
+            window.location.href='/otp';                  
       }
     return(
         <div className="login">     

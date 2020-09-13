@@ -4,7 +4,11 @@ import './otp.css'
 function otp()
 {
        const no =localStorage.getItem("phone");
-       
+       if(!no)
+       {
+           window.location.href='/';
+           
+       }
        // const [otpcode, setOtp] = useState({}); 
         let code=0;  
         function handleChange(evt) {
