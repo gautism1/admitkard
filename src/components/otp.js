@@ -16,11 +16,12 @@ function otp()
            
          if(code=="01234")
         {     
-              alert("You have been successfully login ");
+               alert("You have been successfully login ");
                window.location.href='/success'
                localStorage.setItem("otp",code); 
               }
-            else{
+               else 
+            {
                alert("wrong Otp");             
               window.location.href='/otp';
         }      
@@ -39,7 +40,7 @@ function otp()
      </div>
  <form onSubmit={onSubmit}>
         <div className="otpinputbox">   
-            <input type="number" maxLength="1" className="form-control first" placeholder=""  onChange={handleChange} required/>
+            <input type="tel" maxLength="1" className="form-control first" placeholder=""  onChange={handleChange} required/>
             <input type="tel" maxLength="1"  className="form-control" placeholder=""   onChange={ handleChange }  required/>
             <input type="tel" maxLength="1"  className="form-control" placeholder=""  onChange={ handleChange}  required/>
             <input type="tel" maxLength="1"  className="form-control" placeholder=""  onChange={ handleChange}  required/>
