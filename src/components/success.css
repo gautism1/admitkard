@@ -1,0 +1,51 @@
+ .success{
+     background:white;
+     margin-top:10%;
+     text-align:center;
+       
+     height:600px;
+ }
+
+ .starting{
+     margin-top:10%;
+      width:100%;
+ }
+ p{
+     margin-top:0;
+ }
+ .success_message span{
+    color:grey;
+    font-size:13px;
+ }
+ .success_headline{
+     font-weight:bolder;
+     font-size:17px;
+ }
+ .question{
+     font-size:12px;
+     margin-top:0;
+     color:darkgrey;
+ }
+ .success_button{
+     margin-bottom:10%l;
+ }
+ .getStartButton{
+     padding:5px;
+     background-color:orange;
+     border:none;
+     color:white;
+     font-weight:10px;
+     border-radius:20px;
+     width:160px;
+     height:30px;
+     font-size:10px;
+     margin-top:20%;
+} 
+.success_button{
+    margin-bottom:20%;
+}
+.wait{
+    color:grey;
+    font-size:10px;
+}
+  

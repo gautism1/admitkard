@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+body{
+  background:lightgrey;;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  .OtpVerify{
+    background:white;
+   margin: 0 auto;
+   margin-top:5%;
+   justify-content:center;    
+   height:600px;
+   width:280px;
+ }
+.logoadmitkard{
+  text-align:center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ .logoimage
+ {
+    margin-top: 30%;
+    width: 240px;
+ } 
+ .greet{
+     margin-top:30%;
+    text-align:center;
+ }
+.greet p{
+  margin:0 auto;
+ font-size:20px;
+ text-align:center;
+ font-weight:20px;
+ margin-bottom:5%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.greet span{  
+  color:#796464;
+  font-size:12px;
 }
-
-.App-link {
-  color: #61dafb;
+select{
+  border:none;
+} 
+.message{
+  margin-top:10%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.message p{
+  font-size:10px;
+  font-weight:none;
+  color:#afafaf;
+  margin:0;
+  text-align:center;  
+}
+.getOtpbutton{
+   text-align:center;
+}
+.OTPbutton{
+  padding:5px;
+  background-color:orange;
+  border:none;
+  color:white;
+  font-weight:10px;
+  border-radius:20px;
+  width:160px;
+  height:30px;
+  font-size:10px;
+  margin-top:20%;
+  margin-bottom:20%;
+}
+.number_verify{
+  border:none;
+  outline:none;
+  width:160px ;
+  padding-top:0px;
+  font-weight:-10;
+  justify-content:center;
+}
+.select{
+  outline:none;
+} 
+.field_set{
+  border-radius:5px;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:15%;
+  height:35px;
+  padding:0;
+  border-color:#fed8b3;
+  border-style: solid;
+}
+ legend{
+       color:grey;margin-left:10px;
+       font-weight: 100;
+       font-size: 10px;
+ }
+ .no-arrow{
+   display:none;
+ }
+ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   appearance: none;
+  margin: 0;
 }

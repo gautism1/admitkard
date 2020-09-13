@@ -1,0 +1,100 @@
+.login{
+    background:white;
+     
+    margin:0 auto;
+    height:600px;   
+    margin-top:10%;
+}
+
+.OTPIMAGE{
+    margin-top:15%;
+}
+.logootp{
+    
+    text-align:center;
+     
+    align-items:center;
+}
+ 
+.verify_message{margin-top:10%;
+   text-align:center;
+}
+
+.verify_message p{
+    font-weight:300px;;
+    font-size:15px;
+    word-spacing:3px;
+    margin-bottom:10%;
+}
+.verify_message span{
+    margin-top:0%;
+    word-spacing:3px;
+    color:grey;
+    font-size:12px;
+}
+.change{word-spacing:3px;
+ color:orange;
+ font-size:12px;
+}
+.form-control{
+    width:15px;
+    height:15px;
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0px 2px 8px -3px grey;
+    margin-left:5%;
+    text-align:center;
+    border:none;
+    font-size:20px;
+}
+.first{
+    margin-left:0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   appearance: none;
+    margin: 0;
+}
+.otpinputbox
+{
+    margin-top:20%;
+    font-weight:bold;
+    text-align:center;
+    outline:none;
+} 
+.otpmessage p{
+    font-size:14px;  
+    color:grey; 
+    text-align:center; 
+    margin-top:15%;
+    word-spacing:3px;
+}
+.resend{
+    color:orange;
+    margin-left:5%;
+}
+.verifybutton{
+     padding:5px;
+     background-color:orange;
+     border:none;
+     color:white;
+     font-weight:10px;
+     border-radius:20px;
+     width:160px;
+     height:30px;
+     font-size:10px;
+     
+     margin-bottom:20%;
+}
+input:focus{
+    caret-color:yellow;
+   
+    outline:none;
+}
+.verifydiv
+{
+    text-align:center;
+}
