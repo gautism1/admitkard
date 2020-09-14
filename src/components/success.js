@@ -8,10 +8,13 @@ function success()
     const code=localStorage.getItem("code");
 
     if(!(code && no)){
+        alert("INput Nummber first")
         window.location.href='/';}
     else if(!code)
+    {
+        alert("Provide Otp first")
               window.location.href='/otp';
-    
+    }
     return(
    <div className="success">     
          <div className="successimg" >     
