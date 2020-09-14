@@ -4,6 +4,14 @@ import starting from'../images/PEF.svg'
 
 function success()
 {   
+    const no=localStorage.getItem("phone")
+    const code=localStorage.getItem("code");
+
+    if(!(code && no)){
+        window.location.href='/';}
+    else if(!code)
+              window.location.href='/otp';
+    
     return(
    <div className="success">     
          <div className="successimg" >     
