@@ -5,10 +5,10 @@ import starting from'../images/PEF.svg'
 function success()
 {   
     const no=localStorage.getItem("phone")
-    const code=localStorage.getItem("code");
+    const code=localStorage.getItem("otp");
 
     if(!(code && no)){
-        alert("INput Nummber first")
+        alert("Input Number first")
         window.location.href='/';}
     else if(!code)
     {
