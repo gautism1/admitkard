@@ -17,10 +17,11 @@ It includes
  - No extra CSS framework, all CSS written natively
  - I have also applied ErrorBoundary to handle  app crash
  - I have used heroku to host front end by using  simple server.js file (nodejs)
+ 
 
- **LIVE DEMO LINK**   :   [AdmitKard Frontend  ](https://github.com/gautism1/admitkard) : 
+ **LIVE DEMO LINK**   :   [AdmitKard Frontend](https://admitkardlogin.herokuapp.com/) : 
 
-**YOUTUBE VIDEO DEMO LINK** 
+**YOUTUBE VIDEO DEMO LINK**  :
 
 **Installation** 
    
@@ -30,5 +31,5 @@ It includes
 
 **Contact me:**
 
- - LinkedIN : 
- - Email : 
+ - LinkedIN : [Click here](https://www.linkedin.com/in/vipin-gautam-b95531186/)
+ - Email : vipingautam.m@gmail.com
