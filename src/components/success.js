@@ -11,7 +11,7 @@ function success()
          </div>
      <div className="success_message">
         <p className="success_headline">Welcome to AdmitKard </p>  
-        <span> In order to provide you a custome eperience
+        <span> In order to provide you a custome experience
            </span>
         <p className="question">We need to ask you some questions</p>
      </div>
