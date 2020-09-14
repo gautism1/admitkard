@@ -23,6 +23,10 @@ It includes
 
 **YOUTUBE VIDEO DEMO LINK**  :
 
+
+**Some points**    :It uses localstorage to store phone no and input code
+                    Compares with  static OTP "1234" .
+                    
 **Installation** 
    
     git  clone id/repolink
